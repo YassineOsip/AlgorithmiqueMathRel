@@ -5,7 +5,7 @@ Exercices Algoritmiques / Langage C
 Écrire un algorithme qui résolu l'équation linéaire étant donné les paramétres **y , a , b** selon l'équation suvante : y = ax + b .
 
 ## Exercice 2 - Équation du second degré 
-Écrire un algorithme qui calcule l'ensemble des solutions d'une équation du second degré : **img_place** . 
+Écrire un algorithme qui calcule l'ensemble des solutions d'une équation du second degré : ![alt text](eq.PNG) . 
 
 ## Exercice 3 - Fibonacci
 Écrire un algorithme qui résolu le probléme de la suite fibonacci : **img_place** . 
