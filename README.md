@@ -18,6 +18,7 @@ Exercices Algoritmiques / Langage C
 
 ## Exercice 4 - La factorielle
 Écrire un algorithme linéaire et récursif qui calcule la factorielle d'un nombre n entier naturel : ![alt text](fact.PNG) 
+
 **(Implémentation en C)**
 
 
