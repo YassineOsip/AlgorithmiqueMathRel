@@ -1,0 +1,11 @@
+﻿fonction fibo(n): 
+entrée : un nombre entier n
+sortie : le terme de rang n de la suite de Fibonacci
+
+deux premiers cas : fibo(0) est égal à 0 et fibo(1) est égal à 1
+si (n ≤ 1)
+  renvoyer n 
+	récurrence à partir du terme de rang 2  
+sinon 
+  renvoyer fibo(n - 1) + fibo(n - 2)
+fin de la fonction

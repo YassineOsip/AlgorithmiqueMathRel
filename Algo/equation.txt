@@ -1,0 +1,19 @@
+nom algo : resolution d'une equation lin
+entrée : a , b , y
+sortie : x
+varibles : a , b, y , x : réel
+
+debut :
+	
+	ecrire("tapez  a :")
+	lire(a)
+	ecrire("tapez  b :")
+	lire(b)
+	ecrire("tapez  y :")
+	lire(y)
+	si a == 0 alors 
+		ecrire("can't devide by zero ...")
+	sinon
+		x = (y-b)/a 
+		ecrire("la solution est : " , x)
+fin 

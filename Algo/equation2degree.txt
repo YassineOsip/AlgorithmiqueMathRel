@@ -1,0 +1,28 @@
+﻿nom algorithme : équation du second degrée 
+entrée : a , b , c 
+sortie : x , x0 , x1 , x2 
+
+variables a , b ,c , x , x1 , x2 , delta : réel x0 : chain_char
+x0
+Début:
+	x0 <-- " l'équation n'admet pas de solution réelle"
+	delta <-- (b*b) - (4*a*c)
+	si delta < 0 ;alors
+		Ecrire(x0)
+	sinon si delta > 0 ;alors
+		x1 <-- ((-b) + (delta ** (1/2)) / 2a
+		x2 <-- ((-b) - (delta ** (1/2)) / 2a
+		Ecrire("l'ensemble de solution est : " , x1 , x2)
+	sinon si ;alors
+		x <-- (-b)/(2*a)
+		Ecrire("la solution est : " , x)
+	sinon
+		Ecrire("somthing wrong occured ")
+	finsi 
+Fin
+
+
+		
+		
+
+

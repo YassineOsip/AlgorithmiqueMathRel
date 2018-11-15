@@ -1,0 +1,8 @@
+Fonction factorielle (n: entier): entier
+Début     
+   Si n > 1
+     Retourner n * factorielle(n - 1)
+   Sinon
+     Retourner 1
+   Fin si
+Fin
